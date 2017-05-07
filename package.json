@@ -14,5 +14,8 @@
     "test": "node test",
     "lint": "eslint --quiet --ignore-path .gitignore .",
     "prepush": "npm test"
+  },
+  "dependencies": {
+    "debug": "^2.6.6"
   }
 }
